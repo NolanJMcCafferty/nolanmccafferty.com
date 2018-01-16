@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Nolan McCafferty</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="nolan.css">
+</head>
+
+<body>
+    <div id="name">Nolan McCafferty</div> <br>
+    <a href="https://www.linkedin.com/in/nolan-mccafferty-2092b4133/"><img src="linkedin.png" width=100></a>
+    <a href="https://github.com/NolanJMcCafferty"><img src="github.png" width=100></a>
+    <a href="resume.pdf"><img src="cv.png" width=100></a>
+
+    <div id="info">Pomona College 2020 <br> <br> 206-295-9147 <br> <br>
+        <a href="mailto:njma2016@pomona.edu">njma2016@pomona.edu</a>
+
+        <h1>Hi, my name is Nolan McCafferty and I like to...</h1>
+    </div>
+    <div id="container">
+        <div id="codes">
+            <span class='code' style='display: none;'>play baseball</span>
+            <span class='code' style='display: none;'>write code</span>
+            <span class='code' style='display: none;'>analyze data</span>
+            <span class='code' style='display: none;'>snowboard</span>
+            <span class='code' style='display: none;'>ponder the cosmos</span>
+
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCTJuzeyk7lGCwacWs8zEDL98paV2ItC8E",
+            authDomain: "my-site-b8a2d.firebaseapp.com",
+            databaseURL: "https://my-site-b8a2d.firebaseio.com",
+            projectId: "my-site-b8a2d",
+            storageBucket: "",
+            messagingSenderId: "390208508624"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

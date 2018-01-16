@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: navy;
+}
+
+#info {
+    text-align: left;
+    font-family: Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+#name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-anchor: initial;
+}
+
+img {
+    float: right;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: blue;
+}
+
+.code {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+}
+
+#container {
+    position: relative;
+}
+
+#codes {
+    width: 685px;
+    height: 50px;
+    position: absolute;
+}
+
+#ruler {
+    visibility: hidden;
+    white-space: nowrap;
+}
